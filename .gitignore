@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database artifacts
+data/*.db
+data/*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+

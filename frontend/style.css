@@ -1,0 +1,57 @@
+/* Custom styles for AI SQL Assistant UI */
+
+/* Modern smooth scrollbars */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}
+
+/* Table styling */
+tbody tr:hover {
+    background-color: rgba(30, 41, 59, 0.4);
+}
+
+tbody td {
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+}
+
+thead th {
+    padding: 0.75rem 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Code box text wrap */
+pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
